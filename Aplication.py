@@ -4,4 +4,4 @@ aap=Flask("name ")
 
 @app.route("/")
 def index():
-  return "hello , world!"
+  return render_template("B.html")
